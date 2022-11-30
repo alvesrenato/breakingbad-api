@@ -71,7 +71,7 @@ export function Application({ nameSerie }) {
                 {/* {`Total Solicitado: ${showCards}`}  */}
 
                 
-                <VejaMais onClick={mostrarMais} disabled={showCards !== totalCards ? true : false}>  {`Mostrar mais ${totalCards}-${showCards}`}</VejaMais>
+                <VejaMais onClick={mostrarMais} disabled={showCards !== totalCards ? true : false}>  Mostrar mais</VejaMais>
                 
 
             </div>
